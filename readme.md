@@ -16,7 +16,7 @@ Mongoose, Morgan.
 
 ##### Frontend (if used, ex. jquery, alpine, bootstrap, htmx, etc.)
 
-- Alpine
+- Alpine, Jquery, BootStrap, CSS, HTML, EJS, JS.
 
 ## Route Map
 
