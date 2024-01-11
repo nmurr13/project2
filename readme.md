@@ -24,8 +24,15 @@ Below should be a table listing the different routes in your app and their purpo
 
 | Route Name | Endpoint | Method | Description |
 |------------|----------|--------|-------------|
-| Book Index | /books | GET | Renders all books on a page|
-| Add Book   |/books/new | GET | Add new book |
+| Index | /books | GET | Renders Bookshelf on the Page|
+| New | /books/new | GET | Form to Add New Book |
+| Destroy    | books/:id | DELETE | Delete Book |
+| Update     | books/:id | PUT | Receives Form & Updates Book |
+| Create | books/:id | POST | Receives Form to Create Book |
+| Edit | books/:id/edit | GET | Edit Form |
+| Show | books/:id | GET | Returns a Book |
+
+
 
 
 ## Design Mockups (Desktop + Mobile)
