@@ -25,6 +25,8 @@ Below should be a table listing the different routes in your app and their purpo
 | Route Name | Endpoint | Method | Description |
 |------------|----------|--------|-------------|
 | Book Index | /books | GET | Renders all books on a page|
+| Add Book   |/books/new | GET | Add new book |
+
 
 ## Design Mockups (Desktop + Mobile)
 
