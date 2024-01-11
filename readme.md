@@ -1,21 +1,22 @@
 # Seal Project 2
 
-- **Your Name:**
-- **App Name:**
-- **Description:**
-- **Github URL:**
-- **Deployed Website:**
+- **Nicholas Murray**
+- **App Name: My Bookshelf App**
+- **Description: A full stack app to keep track of what you are reading, what you have read, and what is next.**
+- **https://github.com/nmurr13/project2**
+- **https://nm-seal-project2.onrender.com**
 - **Trello Board:**
 
 ## List of Dependencies
 
 ##### Node Dependencies (package.json)
 
-- express
+- B-Crypt, Connect-Mongo, Dot-env, Ejs, Express, Express-Session, Method-Override,
+Mongoose, Morgan.
 
 ##### Frontend (if used, ex. jquery, alpine, bootstrap, htmx, etc.)
 
-- alpine
+- Alpine
 
 ## Route Map
 
@@ -23,7 +24,7 @@ Below should be a table listing the different routes in your app and their purpo
 
 | Route Name | Endpoint | Method | Description |
 |------------|----------|--------|-------------|
-| Fruit Index | /fruits | GET | Renders all fruits on a page|
+| Book Index | /books | GET | Renders all books on a page|
 
 ## Design Mockups (Desktop + Mobile)
 
