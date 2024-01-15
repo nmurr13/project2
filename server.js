@@ -19,6 +19,11 @@ mongoose.connection
 // create app object
 const app = express()
 
+//middleware
+app.use(morgan("dev"))
+app.use(methodOverride("_method"))
+app.use(express.urlencoded({extended: true}))
+app.use("/static", express.static("public"))
 
 // routes
 app.get("/", (req, res) => {
