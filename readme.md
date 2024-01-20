@@ -2,7 +2,7 @@
 
 - **Nicholas Murray**
 - **App Name: My Bookshelf App**
-- **Description: A full stack app to keep track of what you are reading, what you have read, and what is next.**
+- **Description: A full stack app to keep track of what you are reading, what you have read, and what is on your bookshelf.**
 - **https://github.com/nmurr13/project2**
 - **https://nm-seal-project2.onrender.com/books**
 - **Trello Board: https://trello.com/b/sN1keX8m/project-2-board**
@@ -42,7 +42,7 @@ Mongoose, Morgan.
 
 ##### Desktop Design
 
-![Desktop Design Mockup](./url-to-picture.jpg)
+![Desktop Design Mockup](https://ibb.co/WPf320P)
 
 ## ERD (Entity Relationship Diagram)
 

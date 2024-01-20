@@ -4,8 +4,11 @@ img {
   }
 
   body {
-    background-color: coral;}
-
+    background-color: coral;
+    }
+h3 {
+    color:whitesmoke
+}
     a:link, a:visited {
         text-decoration: none;
       }
