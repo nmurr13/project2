@@ -4,8 +4,8 @@
 - **App Name: My Bookshelf App**
 - **Description: A full stack app to keep track of what you are reading, what you have read, and what is next.**
 - **https://github.com/nmurr13/project2**
-- **https://nm-seal-project2.onrender.com**
-- **Trello Board:**
+- **https://nm-seal-project2.onrender.com/books**
+- **Trello Board: https://trello.com/b/sN1keX8m/project-2-board**
 
 ## List of Dependencies
 
@@ -16,7 +16,7 @@ Mongoose, Morgan.
 
 ##### Frontend (if used, ex. jquery, alpine, bootstrap, htmx, etc.)
 
-- Alpine, Jquery, Milligram, CSS, HTML, EJS, JS.
+- Google Fonts, Milligram, CSS, HTML, EJS, JS.
 
 ## Route Map
 
@@ -46,6 +46,4 @@ Mongoose, Morgan.
 
 ## ERD (Entity Relationship Diagram)
 
-This should be a diagram showing your models and any relationships between them.
-
-![Entity Relationship Diagram](./url-to-picture.jpg)
+![Entity Relationship Diagram](.https://ibb.co/zVLY1B1)
