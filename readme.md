@@ -46,4 +46,4 @@ Mongoose, Morgan.
 
 ## ERD (Entity Relationship Diagram)
 
-![Entity Relationship Diagram](.https://ibb.co/zVLY1B1)
+![Entity Relationship Diagram](https://i.ibb.co/5hzydSd/erd.png)
