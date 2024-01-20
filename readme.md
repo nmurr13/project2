@@ -9,12 +9,12 @@
 
 ## List of Dependencies
 
-##### Node Dependencies (package.json)
+##### Node Dependencies 
 
 - Dot-env, Ejs, Express, Method-Override,
 Mongoose, Morgan.
 
-##### Frontend (if used, ex. jquery, alpine, bootstrap, htmx, etc.)
+##### Frontend 
 
 - Google Fonts, Milligram, CSS, HTML, EJS, JS.
 
