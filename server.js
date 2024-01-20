@@ -3,18 +3,8 @@ require("dotenv").config()
 const express = require("express")
 const morgan = require("morgan")
 const methodOverride = require("method-override")
-const mongoose = require("mongoose")
+const BookRouter= require("./controllers/book")
 
-// get .env variables
-const {DATABASE_URL, SECRET, PORT} = process.env
-
-// database connection
-mongoose.connect(DATABASE_URL)
-
-mongoose.connection
-.on("open", () => console.log("Connected to Mongoose"))
-.on("close", () => console.log("Disconnected from Mongoose"))
-.on("error", (error) => console.log(error))
 
 // create app object
 const app = express()
@@ -23,7 +13,8 @@ const app = express()
 app.use(morgan("dev"))
 app.use(methodOverride("_method"))
 app.use(express.urlencoded({extended: true}))
-app.use("/static", express.static("public"))
+app.use('/public', express.static('public'))
+app.use("/books", BookRouter)
 
 // routes
 app.get("/", (req, res) => {
@@ -31,6 +22,7 @@ app.get("/", (req, res) => {
 })
 
 // turn on the server (the listener)
+const PORT = process.env.PORT || 4000
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`)
-})
+  })

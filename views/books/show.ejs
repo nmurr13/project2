@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("../partials/head.ejs") %>
+
+  <body>
+    <%- include("../partials/header.ejs") %>
+    <main>
+      <div>
+
+        <article>
+          <h3>Title: <%= book.title %> <br>
+            Started Reading: <%= book.startedReading ? "Yes" : "No" %> 
+          <br>Finished Reading: <%= book.finishedReading ? "Yes" : "No" %></h3>
+          <h3>Author: <%= book.author%></h3>
+          <h3>Genre: <%= book.genre %></h3>
+          <h3>Number of Pages: <%= book.numOfPages %></h3>
+        
+          <a href="/books/<%= book._id %>/edit"><button>Edit</button></a>
+          <form action="/books/<%= book._id %>?_method=DELETE" method="POST">
+            <input type="submit" value="Delete"/>
+          </form>
+          <a href="/books/"><button>Back to Main Page</button></a>
+        </article>
+
+      </div>
+    </main>
+  </body>
+</html>

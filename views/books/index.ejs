@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("../partials/head.ejs") %>
+
+  <body>
+    <%- include("../partials/header.ejs") %>
+    <main>
+      <div>
+        <a href="/books/new"><button>Create A New Book</button></a>
+        <% for (book of books) { %>
+
+        <article>
+          <a href="/books/<%= book._id %>">
+            <h3>Title: <%= book.title %> </h3>
+            <h3>Author: <%= book.author%></h3>
+          </a>
+        </article>
+
+        <% } %>
+      </div>
+    </main>
+  </body>
+</html>

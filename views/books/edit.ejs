@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("../partials/head.ejs") %>
+  <body>
+    <%- include("../partials/header.ejs") %>
+
+    <main>
+      <div>
+        <form action="/books/<%= book._id %>?_method=PUT" method="post">
+          <fieldset>
+            <label>
+                TITLE:<input
+                  type="text"
+                  name="title"
+                  placeholder="enter book title"
+                />
+              </label>
+              <label>
+                  AUTHOR:<input
+                  type="text"
+                  name="author"
+                  placeholder="enter author"
+                />
+              </label>
+              <label>
+                  GENRE:<input
+                  type="text"
+                  name="genre"
+                  placeholder="enter genre"
+                />
+              </label>
+              <label>
+                  NUMBER OF PAGES:<input
+                  type="text"
+                  name="numOfPages"
+                  placeholder="enter number of pages"
+                />
+              </label>
+              <label>
+                STARTED READING:<input type="checkbox" name="startedReading" />
+              </label>
+              <label>
+                  FINISHED READING:<input type="checkbox" name="finishedReading" />
+                </label>
+          </fieldset>
+          <button>Update Book</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

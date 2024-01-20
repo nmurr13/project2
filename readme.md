@@ -11,12 +11,12 @@
 
 ##### Node Dependencies (package.json)
 
-- B-Crypt, Connect-Mongo, Dot-env, Ejs, Express, Express-Session, Method-Override,
+- Dot-env, Ejs, Express, Method-Override,
 Mongoose, Morgan.
 
 ##### Frontend (if used, ex. jquery, alpine, bootstrap, htmx, etc.)
 
-- Alpine, Jquery, BootStrap, CSS, HTML, EJS, JS.
+- Alpine, Jquery, Milligram, CSS, HTML, EJS, JS.
 
 ## Route Map
 
