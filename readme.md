@@ -42,7 +42,7 @@ Mongoose, Morgan.
 
 ##### Desktop Design
 
-![Desktop Design Mockup](https://ibb.co/WPf320P)
+![Desktop Design Mockup](https://i.ibb.co/f2TQQTV/desktopmockup.png)
 
 ## ERD (Entity Relationship Diagram)
 
