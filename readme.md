@@ -38,7 +38,7 @@ Mongoose, Morgan.
 
 ##### Mobile Design
 
-![Mobile Design Mockup](./url-to-picture.jpg)
+![Mobile Design Mockup](https://ibb.co/d0qXDTW)
 
 ##### Desktop Design
 
